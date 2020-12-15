@@ -8,7 +8,7 @@ static html:&str = "<ul class='list'>
 
 wasm_bindgen_test_configure!(run_in_browser);
 #[wasm_bindgen_test]
-pub fn run() {
-    parseNode(html);
+pub fn test_run() {
+    // parseNode(html);
    // let vdom = VirtualDom::new()    
 }

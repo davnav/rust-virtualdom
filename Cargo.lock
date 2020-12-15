@@ -463,6 +463,7 @@ checksum = "b5a972e5669d67ba988ce3dc826706fb0a8b01471c088cb0b6110b805cc36aed"
 name = "virtualdom"
 version = "0.1.0"
 dependencies = [
+ "console_error_panic_hook",
  "html_parser",
  "wasm-bindgen",
  "wasm-bindgen-test",
